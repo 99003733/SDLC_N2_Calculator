@@ -3,25 +3,35 @@
 This is a multi-purpose low cost scientific calculator which has near about 4-5 new modes compare to the scientific calculator which already in the market.
 
 ## Research
-![cost vs feature curve for various existing calculator](![cost_feature](https://user-images.githubusercontent.com/78870813/107770135-fb92fe00-6d5e-11eb-85eb-ebc7648870c4.PNG)
-)
+**Cost Vs Feature Curve**
+
+![image](https://user-images.githubusercontent.com/78870813/107804018-68bb8900-6d89-11eb-830a-bfa493787eb4.png)
 
 ## Cost and Features(Our system)
-![1.Cost is near about 1000-1500 Rs]
- [Features included
-1.Basic arithmetic operation
-2.Physics operation
-3.Matrix operations
-4.Combinatorics operations
+**1.Cost is near about 1000-1500 Rs**
+
+***2.Features included***
+
+1. Basic arithmetic operation
+
+2. Physics operation
+
+3. Matrix operations
+
+4. Combinatorics operations
+
 5. Mensuration 
+
 6. Profit and Loss operation
+
 7. Combinatorics (permutation and combination)
+
 8. Finance’s operation
+
 9. Special Math Functions (Exponential, Trigonometric, logarithmic)
-]
 
 ## SWOT ANALYSIS
-![](![swot](https://user-images.githubusercontent.com/78870813/107771123-52e59e00-6d60-11eb-8915-ab9f014688d4.PNG))
+![image](https://user-images.githubusercontent.com/78870813/107805100-dfa55180-6d8a-11eb-9979-993496097486.png)
 
 # 4W&#39;s and 1&#39;H
 
