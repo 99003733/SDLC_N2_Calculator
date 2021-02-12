@@ -1,46 +1,16 @@
-# Requirements
-## Introduction
- --- TBD 
-
-## Research
-![Description](Link to Pic)
--- Content 
-## Cost and Features
-![Description](Link to Pic)
--- Content 
-## Defining Our System
-    -- TBD
-## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
-
-# 4W&#39;s and 1&#39;H
-
-## Who:
-
-**TBD**
-
-## What:
-
-**TBD**
-
-## When:
-
-**TBD**
-
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
-
-# Detail requirements
-## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+| ID | Requirements | Description | Status |
+| --- | --- | --- | --- |
+| HLR001 – LR1 | Acceleration Calculation | By taking v, u, t as an input | Implementing |
+| HLR001 – LR2 | Capacitive reactance Calculation | By taking C, f as an input | Implementing |
+| HLR001 – LR3 | Circular velocity Calculation | By taking r, t as an input | Implementing |
+| HLR001 – LR4 | Coulombs law Calculation | Making &#39;K&#39; constant as well as taking q1, q2 and distance between them as an input | Implementing |
+| HLR001 – LR5 | Projectile motion Calculation | Initial Velocity, Angle and g as an input | Implementing |
+| HLR002 – LR1 | Profit calculation | Taking SP and CP as user input and Check SP\&gt;CP | Implementing |
+| HLR002 – LR2 | Loss calculation | Taking SP and CP as user input and Check CP\&gt;SP | Implementing |
+| HLR002 – LR3 | Discount calculation | Taking input as CP and enter the percentage of discount as an input | Implementing
+
+ |
