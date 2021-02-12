@@ -2,10 +2,11 @@
 ##  High level Requirements:
 | ID | Requirements | Description | Status |
 | --- | --- | --- | --- |
-| HLR001 | Physics Calculation | Several Physics functions are implemented | Implementing |
-| HLR002 | Profit and Loss Calculation | Day to Day use of profit and loss function make it more useful | Implementing |
-
-
+| HLRAM001 | Physics Calculation | Several Physics functions are implemented | Implementing |
+| HLRAM002 | Profit and Loss Calculation | Day to Day use of profit and loss function make it more useful | Implementing |
+| HLRSS003 | Basic Arithmetic Calculations | Very basic operations like +,-,/,* | Implementing |
+| HLRSS004 | Matrix operation | Several Matrix functions | Future |
+| HLRSS005 | Combinatorics Calculation | Permutation and Combination | Implementing |
 
 
 
