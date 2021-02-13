@@ -20,3 +20,10 @@
 
 
 
+##  High level Requirements:
+| ID | Requirements | Description | Status |
+| --- | --- | --- | --- |
+| 1| Implementation of Physics modes of operation | Several Physics functions are implemented | Implementing |
+| 2| Addition of Special math functions | Several math operations | Implementing |
+| 3| Addition of financial calculation | Interest Calculations | Implementing |
+| 4| Basic arithmetic operations mode | Very basic operations like +,-,/,*,% | Implementing |
