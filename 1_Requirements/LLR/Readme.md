@@ -31,7 +31,7 @@
 | HLRSA009 - LR2 | exponential | Taking one number as input | Implementing |
 | HLRSA009 - LR3 | Squareroot | Taking one number as input | Implementing |
 | HLRSA0010 - LR1 | Simple interest calculator | Taking three numbers as input | Implementing |
-| HLRSA0010 - LR2 | Compound interest calculator | Taking four numbers as input | Implementing |
+| HLRSA0010 - LR2 | Compound interest calculator | Taking three numbers as input | Implementing |
 | HLRSA0010 - LR3 | Loan calculator | Taking three numbers as input | Implementing |
 | HLRSA0010 - LR4 | EMI Calculator | Taking three numbers as input | Implementing |
 
