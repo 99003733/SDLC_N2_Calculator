@@ -6,3 +6,10 @@
 
 
 ![LLR (Sequential)](https://user-images.githubusercontent.com/78857812/107847570-b0d2be00-6e12-11eb-93c8-edec75a9ba7b.png)
+
+
+
+
+
+
+![LLR using USE CASE Diagram](https://user-images.githubusercontent.com/78858575/107847575-c3e58e00-6e12-11eb-8ed4-fde967274822.png)
