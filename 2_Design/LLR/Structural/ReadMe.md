@@ -5,3 +5,7 @@
 **Physics calculation Class Diagram**
 <br>
 ![class](https://user-images.githubusercontent.com/78867415/107842767-b5d04700-6deb-11eb-89ab-2d0b7d4aa8e6.PNG)
+
+
+
+![UML Class](https://user-images.githubusercontent.com/78858575/107847656-656cdf80-6e13-11eb-8baf-e75003d93bee.png)
