@@ -24,3 +24,17 @@
 | HLRSS004 - LR6 | Matrix Inverse | Taking a matrix as input and it's dimension | Future |
 | HLRSS005 - LR1 | Permutation | Taking input for total no. of objects and for no.of permutations | Implementing |
 | HLRSS006 - LR2 | Combination | Taking input for total no. of objects and for no.of permutations | Implementing |
+
+
+##  Low level Requirements:
+
+| **Sn** | **Requirements** | **Description** | **Status** |
+| --- | --- | --- | --- |
+| 1 | Multiplication | Two numbers giving as input | Implementing |
+| 2 | Division | Two numbers giving as input | Implementing |
+| 3 | Area | Initiating the required input | Implementing |
+| 4 | Volume | Initiating the required input | Implementing |
+| 5 | Mean | Initiating the required input | Implementing |
+
+
+
