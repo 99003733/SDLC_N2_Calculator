@@ -27,18 +27,11 @@
 | HLRPK007 - LR1 | Area | Initiating the required input | Implementing |
 | HLRPK007 - LR2 | Volume | Initiating the required input | Implementing |
 | HLRPK008 - LR1 | Mean | Initiating the required input | Implementing |
+| HLRSA009 - LR1 | logarithm | Taking one number as input with base as 10 | Implementing |
+| HLRSA009 - LR2 | exponential | Taking one number as input | Implementing |
+| HLRSA009 - LR3 | Squareroot | Taking one number as input | Implementing |
+| HLRSA0010 - LR1 | Simple interest calculator | Taking three numbers as input | Implementing |
+| HLRSA0010 - LR2 | Compound interest calculator | Taking four numbers as input | Implementing |
+| HLRSA0010 - LR3 | Loan calculator | Taking three numbers as input | Implementing |
+| HLRSA0010 - LR4 | EMI Calculator | Taking three numbers as input | Implementing |
 
-
-
-##  Low level Requirements:
-
-| ID | Requirements | Description | Status |
-| --- | --- | --- | --- |
-| 1 | Addition | Taking two numbers as input | Implementing |
-| 2 | Subtraction | Taking two numbers as input | Implementing |
-| 3 | Multiply | Taking two numbers as input | Implementing |
-| 4 | Divide | Taking two numbers as input | Implementing |
-| 5 | Modulo | Taking two numbers as input | Implementing |
-| 6 | logarithm | Taking one number as input with base as 10 | Implementing |
-| 7 | exponential | Taking one number as input | Implementing |
-| 8 | Squareroot | Taking one number as input2 | Implementing |
