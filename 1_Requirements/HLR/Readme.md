@@ -10,3 +10,17 @@
 
 
 
+## High level Requirements:
+
+| Sn | Requirements | Description | Status |
+
+| --- | --- | --- | --- |
+
+| 1| Basic Arithmetic Calculations | basic operations like /,\* | Implementing |
+
+| 2| Mesuration | Area,Volume| Implementing |
+
+| 3| AP,GP,Sum| Mean | Implementing |
+
+
+
