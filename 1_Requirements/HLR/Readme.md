@@ -7,8 +7,8 @@
 | HLRSS003 | Basic Arithmetic Calculations | Very basic operations like +,-,/,* | Implementing |
 | HLRSS004 | Matrix operation | Several Matrix functions | Future |
 | HLRSS005 | Combinatorics Calculation | Permutation and Combination | Implementing |
-
-
+| HLRSA006 | Addition of Special math functions | Several math operations | Implementing |
+| HLRSA007 | Addition of financial calculation | Interest Calculations | Implementing |
 
 ## High level Requirements:
 
@@ -17,13 +17,3 @@
 | 1| Basic Arithmetic Calculations | basic operations like /,\* | Implementing |
 | 2| Mesuration | Area,Volume| Implementing |
 | 3| AP,GP,Sum| Mean | Implementing |
-
-
-
-##  High level Requirements:
-| ID | Requirements | Description | Status |
-| --- | --- | --- | --- |
-| 1| Implementation of Physics modes of operation | Several Physics functions are implemented | Implementing |
-| 2| Addition of Special math functions | Several math operations | Implementing |
-| 3| Addition of financial calculation | Interest Calculations | Implementing |
-| 4| Basic arithmetic operations mode | Very basic operations like +,-,/,*,% | Implementing |
