@@ -38,3 +38,15 @@
 
 
 
+##  Low level Requirements:
+
+| ID | Requirements | Description | Status |
+| --- | --- | --- | --- |
+| 1 | Addition | Taking two numbers as input | Implementing |
+| 2 | Subtraction | Taking two numbers as input | Implementing |
+| 3 | Multiply | Taking two numbers as input | Implementing |
+| 4 | Divide | Taking two numbers as input | Implementing |
+| 5 | Modulo | Taking two numbers as input | Implementing |
+| 6 | logarithm | Taking one number as input with base as 10 | Implementing |
+| 7 | exponential | Taking one number as input | Implementing |
+| 8 | Squareroot | Taking one number as input2 | Implementing |
