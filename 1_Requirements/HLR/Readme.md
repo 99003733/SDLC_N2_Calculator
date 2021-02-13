@@ -9,11 +9,5 @@
 | HLRSS005 | Combinatorics Calculation | Permutation and Combination | Implementing |
 | HLRSA006 | Addition of Special math functions | Several math operations | Implementing |
 | HLRSA007 | Addition of financial calculation | Interest Calculations | Implementing |
-
-## High level Requirements:
-
-| Sn | Requirements | Description | Status |
-| --- | --- | --- | --- |
-| 1| Basic Arithmetic Calculations | basic operations like /,\* | Implementing |
-| 2| Mesuration | Area,Volume| Implementing |
-| 3| AP,GP,Sum| Mean | Implementing |
+| HLRPK008 | Mensuration | Area,Volume| Implementing |
+| HLRPK009 | AP,GP,Sum| Mean | Implementing |
