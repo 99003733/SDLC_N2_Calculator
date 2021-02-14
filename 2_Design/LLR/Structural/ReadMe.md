@@ -8,4 +8,17 @@
 
 
 
-![UML Class](https://user-images.githubusercontent.com/78858575/107847656-656cdf80-6e13-11eb-8baf-e75003d93bee.png)
+
+
+
+
+
+
+
+
+
+
+
+
+![Class diagram](https://user-images.githubusercontent.com/78858575/107872104-b50fe180-6ecd-11eb-91e9-9d4595b6cd9b.jpg)
+
