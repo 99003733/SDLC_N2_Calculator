@@ -85,6 +85,7 @@ void basic_arithmetic()
                 }
                 break;
             case 5:
+                  result=0;
                   return 0;
                   break;
             default:

@@ -1222,7 +1222,7 @@ void UnityAssertNumbersWithin(const UNITY_UINT delta,
     }
 }
 
-/*-----------------------------------------------*/
+/*-------------------------*/
 void UnityAssertNumbersArrayWithin(const UNITY_UINT delta,
                                    UNITY_INTERNAL_PTR expected,
                                    UNITY_INTERNAL_PTR actual,
