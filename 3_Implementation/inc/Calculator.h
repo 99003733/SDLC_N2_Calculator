@@ -5,7 +5,7 @@
 # include"Arithmetic.h"
 # include"Matrix.h"
 #include"profitloss.h"
-#include"profitloss.h"
+#include"physics.h"
 
 void calculator();
 
