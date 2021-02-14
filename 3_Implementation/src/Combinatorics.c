@@ -79,6 +79,9 @@ double permutations(int n,int r)
 double combinations(int n,int r)
 {
     double n_fact,n_rfact,r_fact;
-    double comb=n_fact/(r_fact*n_rfact);
+    n_fact=factorial(n);
+    n_rfact=factorial(n-r);
+    r_fact=factorial(r);
+    double comb=(n_fact)/(r_fact*n_rfact);
     return comb;
 }
