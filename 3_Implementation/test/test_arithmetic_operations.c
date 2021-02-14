@@ -36,7 +36,7 @@ int main()
 
 /* Write all the test functions */ 
 void test_add(void) {
-  TEST_ASSERT_EQUAL(30, addition(10, 20));
+  TEST_ASSERT_EQUAL(50, addition(30, 20));
   TEST_ASSERT_EQUAL(-10, addition(10, -20));
 }
 void test_add_testcase2(void) {
@@ -59,7 +59,7 @@ void test_multiply(void) {
 }
 
 void test_divide(void) {
-  TEST_ASSERT_EQUAL(0, divide(1, 0));
+  TEST_ASSERT_EQUAL(printf("Error"), divide(1, 0));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
