@@ -4,7 +4,6 @@
 #include<stdio.h> 
 
 void financial_Calculation();
-int NumberLengthCheck(double);
 double simple_Interest(double,float,float);
 double compound_Interest(double,float,float);
 double emi_Calculator(double,float,float);
