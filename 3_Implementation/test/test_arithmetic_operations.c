@@ -10,6 +10,7 @@ void test_add(void);
 void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
+void test_multiply2(void);
 void test_divide(void);
 
 /* Required by the unity test framework */
@@ -28,6 +29,7 @@ int main()
   RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
+  RUN_TEST(test_multiply2);
   RUN_TEST(test_divide);
 
   /* Close the Unity Test Framework */
@@ -58,8 +60,12 @@ void test_multiply(void) {
   TEST_ASSERT_EQUAL(2, multiply(2, 5));
 }
 
+void test_multiply2(void)
+{
+  TEST_ASSERT_EQUAL(9999999900000000, multiply(100000000,99999999));
+}
 void test_divide(void) {
-  TEST_ASSERT_EQUAL(printf("Error"), divide(1, 0));
+  TEST_ASSERT_EQUAL(0, divide(1, 0));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
