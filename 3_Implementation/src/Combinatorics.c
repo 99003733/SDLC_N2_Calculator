@@ -19,21 +19,31 @@ void combinatorics()
                   double permres;
                   printf("\nEnter total number of objects:");
                   scanf("%d",&n);
-                  printf("\nEnter number of permutations want:");
+                  printf("\nEnter number of permutations you want:");
                   scanf("%d",&r);
-                  permres=permutations(n,r);
-                  printf("%lf",permres);
+                  if(n>=r)
+                  {
+                    permres=permutations(n,r);
+                    printf("%lf",permres);
+                  }
                   break;
            case 2:
                    double combres;
-                   combres=combinations(n,r);
-                   printf("%lf",combres);
+                   printf("\nEnter total number of objects:");
+                   scanf("%d",&n);
+                   printf("\nEnter number of combinations you want:");
+                   scanf("%d",&r);
+                   if(n>=r)
+                   {
+                    combres=combinations(n,r);
+                      printf("%lf",combres);
+                   }
                    break;
             case 3:
                   return 0;
                   break;
             default:
-                 printf("Invalid Choice");
+                 printf("\nError");
                  break;
         }
     } while(1);
@@ -41,12 +51,19 @@ void combinatorics()
 
 double factorial(int num)
 {
-    int res=1;
-    for(int i=1;i<=num;i++)
+    if(num==0)
     {
-        res=res*i;
+        return 1;
     }
-    return res;
+    else
+    {
+      int res=1;
+      for(int i=1;i<=num;i++)
+      {
+        res=res*i;
+      }
+      return res;
+    }
 }
 
 double permutations(int n,int r)
