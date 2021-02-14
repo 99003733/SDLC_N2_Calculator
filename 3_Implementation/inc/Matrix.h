@@ -5,12 +5,9 @@
 
 void MatrixOperations();
 void Matinput(int**,int,int);
-double determinant(int**,int,int);
-int** Mat_addition(int**,int**,int,int);
-int** Mat_Subtraction(int**,int**,int,int);
-int** Mat_Multiply(int**,int**,int,int);
-int Mat_rowsum(int**,int,int);
-int Mat_colsum(int**,int,int);
-int** edit_matrix(int**,int);
+void determinant(int**,int);
+void Mat_addition(int**,int**,int,int);
+void Mat_Subtraction(int**,int**,int,int);
+void Mat_Multiply(int**,int**,int,int,int,int);
 
 # endif
