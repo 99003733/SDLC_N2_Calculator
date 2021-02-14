@@ -12,4 +12,13 @@
 
 
 
-![LLR using USE CASE Diagram](https://user-images.githubusercontent.com/78858575/107847575-c3e58e00-6e12-11eb-8ed4-fde967274822.png)
+
+
+
+
+
+
+
+
+![LLR](https://user-images.githubusercontent.com/78858575/107871697-f43c3380-6ec9-11eb-909c-057b4a3e423a.jpg)
+
