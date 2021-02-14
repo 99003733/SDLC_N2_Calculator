@@ -4,14 +4,19 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  H_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  H_01       | mode switch working for special operations|  mode==1   | shows mode menu | shows mode menu |Requirement based|
+|  H_02       |  mode switch working |  mode==2   | Error | Error | Scenario based |
 
 ## Table no: Low level test plan
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  L_011    | Adding two numbers | num1= 30, num2=20 |  result=50 | result=50 |Requirement based |
+|  L_012    | Subtracting two numbers | num1= 0, num2=3 |  result=-3 | result=-3 |Requirement based |
+|  L_013    | Multiply two numbers | num1= 1, num2=0 |  result=0 | result=0 |Requirement based |
+|  L_014    | Dividing two numbers | num1= 1, num2=0 |  Error | Error |Requirement based |
+|  L_021    | Adding two numbers | num1=750, num2=7500 | result=8250 | result=1500 | Scenario based |
+|  L_022    | Subtract two numbers | num1=1000, num2=900 | result=1900 | result=1 | Scenario based |
+|  L_023    | Multiply two numbers | num1=2, num2=5 | result=10 | result=2 | Scenario based |
+|  L_024    | Dividing two numbers | num1=2, num2=2 | result=1 | result=3 | Scenario based |
+|  L_03     | Multiplying two 8 digit numbers | num1=100000000,num2=99999999 | result=9999999900000000 |Boundary based    |
