@@ -1,7 +1,7 @@
-#include<special_Math_Functions.h>
-#include<stdio.h>
+#include "special_Math_Functions.h"
+#include <stdio.h>
 
-#include<math.h>
+#include <math.h>
 void math_Functions()
 {
    static double result;
