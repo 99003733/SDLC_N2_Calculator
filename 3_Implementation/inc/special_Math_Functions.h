@@ -3,8 +3,8 @@
 #include<stdio.h>
 
 void math_Functions();
-double logarithm(double);
-double exponent(float);
+double logarithm(double); //function for logarithm
+double exponent(float); //function for exponent
 double squareroot(double);
 double trigonometry(double);
 
