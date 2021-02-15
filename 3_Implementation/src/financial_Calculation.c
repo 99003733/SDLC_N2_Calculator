@@ -14,8 +14,8 @@ void finance_Calculation() //created function
  
     double principal_amount;
     
-     printf("Please choose only one option for financial operation:\n");
-     printf(" 1. simple interest\n 2. compound interest\n 3. emi amount\n");
+     printf("Please choose only one option for financial operation:\n");//select operation to be performed
+     printf(" 1. simple interest\n 2. compound interest\n 3. emi amount\n");//operations
      scanf("%d",&select_option);
      
      switch(select_option)
