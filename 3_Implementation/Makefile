@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/main.c
+src/Calculator.c
 
 # All test source files
 TEST_SRC = src/main.c\
-test/test_arithmetic_operations.c\
+test/test_arithmetic_operations.c/test_combinatorics.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
@@ -41,7 +41,7 @@ all: $(SRC) $(BUILD)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT).exe
 
 # Document the code using Doxygen
 #doc:
