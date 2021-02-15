@@ -38,19 +38,19 @@ void math_Functions()
  }
 }while(1);
 }
-double logarithm(double input)
+double logarithm(double input)//logarithm function
 {
 double log_value;
 log_value = log10(input);
 return log_value;
 }
-double exponent(double input)
+double exponent(double input)//exponent function
 {
 double exp_value;
 exp_value = exp(input);
 return exp_value;
 }
-double squareroot(double input)
+double squareroot(double input)//squareroot function
 {
 double sqrt_value;
 sqrt_value = sqrt(input);
