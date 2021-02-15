@@ -5,7 +5,7 @@
 void math_Functions();
 double logarithm(double); //function for logarithm
 double exponent(float); //function for exponent
-double squareroot(double);
-double trigonometry(double);
+double squareroot(double); //function for exponent
+double trigonometry(double); //function for exponent
 
 #endif
