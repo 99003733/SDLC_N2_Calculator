@@ -48,8 +48,8 @@
 |  L_121    |Calculate exponent | value=3 | result=20.08 | result=20.08 |Requirement based |
 |  L_122    |Calculate logarithm | value=10 | result=1 | result=1 |Requirement based |
 |  L_123    |Calculate squareroot | value=144 | result=12 | result=12 |Requirement based |
-|  L_131    |Calculate exponent | value=5 | result= | result=100 |Scenario based |
-|  L_132    |Calculate logarithm | value=-10 | result= | Error |Scenario based |
-|  L_133    |Calculate squareroot | value=7878 | result= | result=70.3 |Scenario based |
+|  L_131    |Calculate exponent | value=5 | result=148.41 | result=100 |Scenario based |
+|  L_132    |Calculate logarithm | value=-10 | result=Error | result=1 |Scenario based |
+|  L_133    |Calculate squareroot | value=7878 | result=88.75 | result=70.3 |Scenario based |
 
 
