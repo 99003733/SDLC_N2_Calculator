@@ -45,9 +45,9 @@
 |  L_112    |Calculate compound interest | principal amount=30000, Time period=4, rate of interest=9 | result=12942 | result=14000 |Scenario based |
 |  L_113    |Calculate EMI amount | principal amount=25000, Time period=2, rate of interest=8 | result=1131 | result=1500 |Scenario based |
 |  L_114    |Calculate Loan amount | principal amount=100000, Time period=4, rate of interest=7 | result=2395 | result=2000 |Scenario based |
-|  L_121    |Calculate exponent | value=3 | result=20.08 | result=20.08 |Requirement based |
-|  L_122    |Calculate logarithm | value=10 | result=1 | result=1 |Requirement based |
-|  L_123    |Calculate squareroot | value=144 | result=12 | result=12 |Requirement based |
+|  L_121    |Calculate exponent | value=3 | result=20.08 | result=20.08 | Requirement based |
+|  L_122    |Calculate logarithm | value=10 | result=1 | result=1 | Requirement based |
+|  L_123    |Calculate squareroot | value=144 | result=12 | result=12 | Requirement based |
 |  L_131    |Calculate exponent | value=5 | result=148.41 | result=100 |Scenario based |
 |  L_132    |Calculate logarithm | value=-10 | result=Error | result=1 |Scenario based |
 |  L_133    |Calculate squareroot | value=7878 | result=88.75 | result=70.3 |Scenario based |
