@@ -1,5 +1,5 @@
 # include"Calculator.h"
-# include"combinatorics.h"
+# include"Combinatorics.h"
 # include"Arithmetic.h"
 # include"Matrix.h"
 
