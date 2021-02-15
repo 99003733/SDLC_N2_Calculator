@@ -11,7 +11,7 @@ src/Calculator.c
 # All test source files
 TEST_SRC = src/project_main.c\
 test/test_arithmetic_operations.c\
-test_combinatorics.c\
+test/test_combinatorics.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
