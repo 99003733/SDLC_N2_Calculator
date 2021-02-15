@@ -43,7 +43,7 @@ void finance_Calculation() //created function
     
      break;
     case 3:
-    printf("Please enter principal amount(P):\n");
+    printf("Please enter principal amount(P):\n");//principal amount
      scanf("%lf",&principal_amount);
      printf("please enter time period(T):\n");
      scanf("%f",&time_period);
