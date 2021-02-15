@@ -6,10 +6,15 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/Calculator.c
+src/Calculator.c\
+src/Arithmetic.c\
+src/Combinatorics.c
 
 # All test source files
 TEST_SRC = project_main.c\
+src/Calculator.c\
+src/Arithmetic.c\
+src/Combinatorics.c\
 test/test_arithmetic_operations.c\
 test/test_combinatorics.c\
 unity/unity.c\
