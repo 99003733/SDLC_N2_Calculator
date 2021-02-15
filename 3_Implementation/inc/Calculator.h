@@ -1,7 +1,7 @@
 # ifndef __CALCULATOR_H
 # define __CALCULATOR_H
 
-# include"combinatorics.h"
+# include"Combinatorics.h"
 # include"Arithmetic.h"
 # include"Matrix.h"
 #include"profitloss.h"
