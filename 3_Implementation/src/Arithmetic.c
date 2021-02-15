@@ -1,4 +1,4 @@
-#include <Arithmetic.h>
+#include "Arithmetic.h"
 #include<stdio.h>
 
 
@@ -95,7 +95,7 @@ void basic_arithmetic()
     } while(1);
 }
 
-double addition(double num1,double num2)
+double Addition(double num1,double num2)
 {
     double add;
     add=num1+num2;
