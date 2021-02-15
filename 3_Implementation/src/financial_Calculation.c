@@ -21,11 +21,11 @@ void finance_Calculation() //created function
      switch(select_option)
  {
     case 1 :
-     printf("Please enter principal amount(P):\n");
+     printf("Please enter principal amount(P):\n");//Principal amount
      scanf("%lf",&principal_amount);
-     printf("please enter time period(T):\n");
+     printf("please enter time period(T):\n");//Time period
      scanf("%f",&time_period);
-     printf("please enter rate of interest(R):\n");
+     printf("please enter rate of interest(R):\n");//Rate of interest
      scanf("%f",&rate_of_interest);
      result=simple_Interest(principal_amount,time_period,rate_of_interest);
      printf("%lf",result);
