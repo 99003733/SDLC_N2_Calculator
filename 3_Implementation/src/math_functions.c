@@ -10,9 +10,9 @@ void math_Functions()
     int select_option;
      double input;
       printf("Please choose only one option for special math functions:\n");//choose the operations
-     printf(" 1. logarithm calculation\n 2. exponent calculation\n 3. squareroot calculation\n");
+     printf(" 1. logarithm calculation\n 2. exponent calculation\n 3. squareroot calculation\n");//operations
      scanf("%d",&select_option);
-     switch(select_option)
+     switch(select_option)//using switch case
  {
     case 1 :
      printf("Please enter the input value:\n");
