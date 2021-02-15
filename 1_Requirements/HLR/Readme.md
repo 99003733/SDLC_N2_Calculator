@@ -10,4 +10,5 @@
 | HLRSA006 | Addition of Special math functions | Several math operations | Implementing |
 | HLRSA007 | Addition of financial calculation | Interest Calculations | Implementing |
 | HLRPK008 | Mensuration | Area,Volume| Implementing |
-| HLRPK009 | AP,GP,Sum| Mean | Implementing |
+| HLRPK009 | AP,GP,Sum| Mean | Implementing | 
+
