@@ -19,4 +19,4 @@
 |  L_022    | Subtract two numbers | num1=1000, num2=900 | result=1900 | result=1 | Scenario based |
 |  L_023    | Multiply two numbers | num1=2, num2=5 | result=10 | result=2 | Scenario based |
 |  L_024    | Dividing two numbers | num1=2, num2=2 | result=1 | result=3 | Scenario based |
-|  L_03     | Multiplying two 8 digit numbers | num1=100000000,num2=99999999 | result=9999999900000000 |Boundary based    |
+|  L_03     | Multiplying two 8 digit numbers | num1=100000000,num2=99999999 | result=9999999900000000 | Error | Boundary based |
