@@ -4,7 +4,7 @@
 #include<stdio.h> 
 
 void financial_Calculation();
-double simple_Interest(double,float,float);
+double simple_Interest(double,float,float); //simple interest function
 double compound_Interest(double,float,float);
 double emi_Calculator(double,float,float);
 
