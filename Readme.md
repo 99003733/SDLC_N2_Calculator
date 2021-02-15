@@ -22,12 +22,13 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 0 No     | 1 No   |17 No   |6 No     
+99003733 | Aditya | Physics, profit and loss | 0 No | 3 No | 15 No | 6 No 
  
 
 ## Challenges Faced and How Was It Overcome
 
 1. Case Sensitive issue.
-
+2. Make file issue 
 
 
 ## Learning Resources
