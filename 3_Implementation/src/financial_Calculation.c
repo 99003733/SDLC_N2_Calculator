@@ -1,8 +1,8 @@
-#include "finance_Calculation.h"
+#include "finance_Calculation.h" //mention .h file 
 #include <stdio.h>
 
 #include<math.h>
-void finance_Calculation()
+void finance_Calculation() //created function
 {    
     static double result;
     do
