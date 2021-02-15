@@ -37,19 +37,19 @@
 |  L_092    | Matrix Subtraction | MAT1=[9 ,3 ,10 ;-2 ,8 ,10 ;10 ,-5 ,50 ], MAT2=[1 ,9 ,-5 ;8 ,2 ,0 ;30 ,4 ,10] | SUB_MAT=[8 ,-6 ,15 ;-10 ,6 ,10 ;-20 ,-9 , 40] | SUB_MAT=[8 ,-6 ,15 ;-10 ,6 ,10 ;-20 ,-9 , 40] | Requirement based | 
 | L_093     | Matrix addition or subtraction | am=2 , an=3 ,bm=2 ,bn=2 | Error | Error | Scenario based |
 | L_094     | Matrix multiply | am=1 , an=3 ,bm=2 ,bn=1 | Error | Error | Scenario based |
-|  L_101    |Calculate simple interest | principal amount=10000, Time period=2, rate of interest=8 | result=1600 |Requirement based |
-|  L_102    |Calculate compound interest | principal amount=10000, Time period=2, rate of interest=8 | result=1728 |Requirement based |
-|  L_103    |Calculate EMI amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 |Requirement based |
-|  L_104    |Calculate Loan amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 |Requirement based |
-|  L_111    |Calculate simple interest | principal amount=20000, Time period=3, rate of interest=6 | result=2000 |Scenario based |
-|  L_112    |Calculate compound interest | principal amount=30000, Time period=4, rate of interest=9 | result=14000 |Scenario based |
-|  L_113    |Calculate EMI amount | principal amount=25000, Time period=2, rate of interest=8 | result=1500 |Scenario based |
-|  L_114    |Calculate Loan amount | principal amount=100000, Time period=4, rate of interest=7 | result=2000 |Scenario based |
-|  L_121    |Calculate exponent | value=3 | result=20.08 |Requirement based |
-|  L_122    |Calculate logarithm | value=10 | result=1 |Requirement based |
-|  L_123    |Calculate squareroot | value=144 | result=12 |Requirement based |
-|  L_131    |Calculate exponent | value=5 | result=100 |Scenario based |
-|  L_132    |Calculate logarithm | value=-10 | Error |Scenario based |
-|  L_133    |Calculate squareroot | value=7878 | result=70.3 |Scenario based |
+|  L_101    |Calculate simple interest | principal amount=10000, Time period=2, rate of interest=8 | result=1600 | result=1600 |Requirement based |
+|  L_102    |Calculate compound interest | principal amount=10000, Time period=2, rate of interest=8 | result=1728 | result=1728 |Requirement based |
+|  L_103    |Calculate EMI amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 | result=10855 |Requirement based |
+|  L_104    |Calculate Loan amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 | result=10855 |Requirement based |
+|  L_111    |Calculate simple interest | principal amount=10000, Time period=3, rate of interest=6 | result=1800 | result=2000 |Scenario based |
+|  L_112    |Calculate compound interest | principal amount=30000, Time period=4, rate of interest=9 | result=12942 | result=14000 |Scenario based |
+|  L_113    |Calculate EMI amount | principal amount=25000, Time period=2, rate of interest=8 | result=1131 | result=1500 |Scenario based |
+|  L_114    |Calculate Loan amount | principal amount=100000, Time period=4, rate of interest=7 | result=2395 | result=2000 |Scenario based |
+|  L_121    |Calculate exponent | value=3 | result=20.08 | result=20.08 |Requirement based |
+|  L_122    |Calculate logarithm | value=10 | result=1 | result=1 |Requirement based |
+|  L_123    |Calculate squareroot | value=144 | result=12 | result=12 |Requirement based |
+|  L_131    |Calculate exponent | value=5 | result= | result=100 |Scenario based |
+|  L_132    |Calculate logarithm | value=-10 | result= | Error |Scenario based |
+|  L_133    |Calculate squareroot | value=7878 | result= | result=70.3 |Scenario based |
 
 
