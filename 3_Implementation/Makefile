@@ -9,14 +9,20 @@ SRC = project_main.c\
 src/Calculator.c\
 src/Arithmetic.c\
 src/Combinatorics.c
+src/physics.c
+src/profitloss.c
 
 # All test source files
 TEST_SRC = project_main.c\
 src/Calculator.c\
 src/Arithmetic.c\
 src/Combinatorics.c\
+src/physics.c\
+src/profitloss.c\
 test/test_arithmetic_operations.c\
 test/test_combinatorics.c\
+test/test_physics.c\
+test/test_profitloss.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
