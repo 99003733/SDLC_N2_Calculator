@@ -55,10 +55,10 @@
 |  L_142    | Area of circle operation | num1= 4 |  result=50 | result=50 |Requirement based |
 |  L_143    | Area of sphere operation | num1= 9 |  result=113 | result=113 |Requirement based |
 |  L_144    | volume of square operation | num1= 1 | result=4 | result=4 |Requirement based |
-|  L_151    | Area of square operation | num1= 3 |  result=9 | result=95 |Requirement based |
-|  L_152    | Area of circle operation | num1= 4 |  result=50 | result=505 |Requirement based |
-|  L_153    | Area of sphere operation | num1= 9 |  result=113 | result=1139 |Requirement based |
-|  L_154    | volume of square operation | num1= 1 | result=4 | result=44 |Requirement based |
+|  L_151    | Area of square operation | num1= 3 |  result=9 | result=95 |Scenario based |
+|  L_152    | Area of circle operation | num1= 4 |  result=50 | result=505 |Scenario based |
+|  L_153    | Area of sphere operation | num1= 9 |  result=113 | result=1139 |Scenario based |
+|  L_154    | volume of square operation | num1= 1 | result=4 | result=44 |Scenario based |
 
 
 
