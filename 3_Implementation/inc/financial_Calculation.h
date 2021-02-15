@@ -5,7 +5,7 @@
 
 void financial_Calculation();
 double simple_Interest(double,float,float); //simple interest function
-double compound_Interest(double,float,float);
+double compound_Interest(double,float,float); //compound interest function
 double emi_Calculator(double,float,float);
 
 # endif 
