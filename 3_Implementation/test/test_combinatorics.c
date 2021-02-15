@@ -31,18 +31,18 @@ int main()
 }
 
 void test_permutation(void) {
-  TEST_ASSERT_EQUAL(5, addition(5, 1));
-  TEST_ASSERT_EQUAL(12, addition(4,2));
+  TEST_ASSERT_EQUAL(5, permutation(5, 1));
+  TEST_ASSERT_EQUAL(12, permutation(4,2));
 }
 void test_permutation2(void) {
  
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(10, addition(6, 4));
+  TEST_ASSERT_EQUAL(10, permutation(6, 4));
 }
 void test_combination(void) {
-  TEST_ASSERT_EQUAL(2, subtract(2, 1));
+  TEST_ASSERT_EQUAL(2, combination(2, 1));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(40, subtract(10, 4));
+  TEST_ASSERT_EQUAL(40, combination(10, 4));
 }
 
