@@ -51,5 +51,14 @@
 |  L_131    |Calculate exponent | value=5 | result=148.41 | result=100 |Scenario based |
 |  L_132    |Calculate logarithm | value=-10 | result=Error | result=1 |Scenario based |
 |  L_133    |Calculate squareroot | value=7878 | result=88.75 | result=70.3 |Scenario based |
+|  L_141    | Area of square operation | num1= 3 |  result=9 | result=9 |Requirement based |
+|  L_142    | Area of circle operation | num1= 4 |  result=50 | result=50 |Requirement based |
+|  L_143    | Area of sphere operation | num1= 9 |  result=113 | result=113 |Requirement based |
+|  L_144    | volume of square operation | num1= 1 | result=4 | result=4 |Requirement based |
+|  L_151    | Area of square operation | num1= 3 |  result=9 | result=95 |Requirement based |
+|  L_152    | Area of circle operation | num1= 4 |  result=50 | result=505 |Requirement based |
+|  L_153    | Area of sphere operation | num1= 9 |  result=113 | result=1139 |Requirement based |
+|  L_154    | volume of square operation | num1= 1 | result=4 | result=44 |Requirement based |
+
 
 
