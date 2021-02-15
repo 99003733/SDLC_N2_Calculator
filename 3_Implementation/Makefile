@@ -9,7 +9,7 @@ SRC = project_main.c\
 src/Calculator.c
 
 # All test source files
-TEST_SRC = src/project_main.c\
+TEST_SRC = project_main.c\
 test/test_arithmetic_operations.c\
 test/test_combinatorics.c\
 unity/unity.c\
