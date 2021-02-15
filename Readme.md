@@ -29,7 +29,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 1. Case Sensitive issue.
 2. Make file issue.
-3.File integration issue.
+3. File integration issue.
 
 
 ## Learning Resources
