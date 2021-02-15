@@ -32,4 +32,9 @@
 |  L_075    | Finding Projectile motion | V = 25, angle=15 | Range = 31.887755 | Range  = 31.887755 | Requirement based |
 |  L_081    | Calculating profit and loss | sp = 120, cp=12 | res = 108 | res  = 108 | Requirement based |
 |  L_082    | Calculating Discount | mp = 100, d=15 | disc_price = 85 | disc_price  = 85 | Requirement based |
+|  L_091    | For Matrix Determinant | [10 ,20 ,30; 5, 6, 7; 1, 0, 0] | Det=80 | Det=80 | Requirement based |
+|  L_092    | Matrix Addition | MAT1=[9 ,30 ,10 ;-2 ,8 ,10 ;10 ,-5 ,50 ], MAT2=[10 ,9 ,-5 ;8 ,2 ,0 ;30 ,4 ,10] | ADD_MAT=[19 ,39 ,5 ;6 ,10 ,10 ;40 ,-1, 60] | ADD_MAT=[19 ,39 ,5 ;6 ,10 ,10 ;40 ,-1, 60] | Requirement based | 
+|  L_092    | Matrix Subtraction | MAT1=[9 ,3 ,10 ;-2 ,8 ,10 ;10 ,-5 ,50 ], MAT2=[1 ,9 ,-5 ;8 ,2 ,0 ;30 ,4 ,10] | SUB_MAT=[8 ,-6 ,15 ;-10 ,6 ,10 ;-20 ,-9 , 40] | SUB_MAT=[8 ,-6 ,15 ;-10 ,6 ,10 ;-20 ,-9 , 40] | Requirement based | 
+| L_093     | Matrix addition or subtraction | am=2 , an=3 ,bm=2 ,bn=2 | Error | Error | Scenario based |
+| L_094     | Matrix multiply | am=1 , an=3 ,bm=2 ,bn=1 | Error | Error | Scenario based |
 
