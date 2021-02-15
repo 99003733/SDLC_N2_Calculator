@@ -25,3 +25,11 @@
 |  L_051    | Calculating Permutations | n=6,r=4 | permres=10 | permres=15 | Scenario based |
 |  L_052    | Calculating Combinations | n=10,r=4 | combres=40 | combres=210 | Scenario based |
 |  L_06     | For both Permutation and combination | n=2, r=5 | Error | Error | Boundary based |
+|  L_071    | Calculating Acceleration | v=10, u=5, t=5 | accefunc = 1 | accefunc = 1 | Scenario based |
+|  L_072    | Finding capacitive Reactance | f=100, C= 5 | react= 0.00031830| react = 0.00031830 | Requirement based |
+|  L_073    | Finding Circular Velocity | r = 100, t = 2 | velocity= 314.159265 | velocity = 314.159265 | Requirement based |
+|  L_074    | Finding Circular Velocity | M1 = 1000, M2 = 1000, D = 2 | Force= 0.000016675 | Force = 0.000016675 | Requirement based |
+|  L_075    | Finding Projectile motion | V = 25, angle=15 | Range = 31.887755 | Range  = 31.887755 | Requirement based |
+|  L_081    | Calculating profit and loss | sp = 120, cp=12 | res = 108 | res  = 108 | Requirement based |
+|  L_082    | Calculating Discount | mp = 100, d=15 | disc_price = 85 | disc_price  = 85 | Requirement based |
+
