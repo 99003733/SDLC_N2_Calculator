@@ -1,4 +1,4 @@
-#include"combinatorics.h"
+#include"Combinatorics.h"
 #include<stdio.h>
 
 void combinatorics()
