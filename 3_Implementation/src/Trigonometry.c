@@ -4,9 +4,9 @@
 void Sine_function(double input);//sine operator function
 void Cosine_function(double input);//cosine operator function
 void Tangent_function(double input);//tangent operator function
-void Cosecant_function(double input);
-void Secant_function(double input);
-void Cotangent_function(double input);
+void Cosecant_function(double input);//cosecant operator function
+void Secant_function(double input);//secant operator function
+void Cotangent_function(double input);//cotangent operator function
 
 int main()
 {
