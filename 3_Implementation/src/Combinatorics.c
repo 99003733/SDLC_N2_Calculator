@@ -6,17 +6,19 @@ void combinatorics()
     do
     {
         int ch;
+         int n,r;
+         double permres;
+         double combres;
         printf("\n\n\t\t\t___COMBINATRONICSMENU___");
         printf("\n\n1)PERMUTATIONS");
         printf("\n\n2)COMBINATIONS");
         printf("\n\n3)TO RESET THE CALCULATOR");
-        print("\n\nEnter your Choice:");
+        printf("\n\nEnter your Choice:");
         scanf("%d",&ch);
         switch(ch)
         {
             case 1:
-                 int n,r;
-                  double permres;
+                  
                   printf("\nEnter total number of objects:");
                   scanf("%d",&n);
                   printf("\nEnter number of permutations you want:");
@@ -28,7 +30,7 @@ void combinatorics()
                   }
                   break;
            case 2:
-                   double combres;
+                   
                    printf("\nEnter total number of objects:");
                    scanf("%d",&n);
                    printf("\nEnter number of combinations you want:");
@@ -40,7 +42,7 @@ void combinatorics()
                    }
                    break;
             case 3:
-                  return 0;
+                  return ;
                   break;
             default:
                  printf("\nError");
