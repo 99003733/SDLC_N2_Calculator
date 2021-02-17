@@ -8,7 +8,7 @@ BUILD = build
 SRC = project_main.c\
 src/Calculator.c\
 src/Arithmetic.c\
-src/Combinatorics.c\
+src/Combinatorics.c
 
 # All test source files
 TEST_SRC = project_main.c\
