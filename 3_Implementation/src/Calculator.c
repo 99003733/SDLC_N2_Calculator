@@ -6,7 +6,7 @@
 void calculator()
 {
         int ch,mode;
-        print("\nPress 1- for Special Modes");
+        printf("\nPress 1- for Special Modes");
         scanf("%d",&mode);
         if(mode==1)
         {
@@ -14,7 +14,7 @@ void calculator()
             printf("\n\n2) MATRIX MODE");
             printf("\n\n3) PHYSICS MODE");
             printf("\n\n4) PROFIT LOSS MODE");
-            printf("Enter your choice:");
+            printf("\nEnter your choice:");
             scanf("%d",&ch);
             switch(ch)
             {
@@ -22,13 +22,13 @@ void calculator()
                     combinatorics();
                     break;
                 case 2:
-                    Matrixoperations();
+                   // Matrixoperations();
                     break;
                 case 3:
-                    profit_loss();
+                   //profit_loss();
                     break;
                 case 4:
-                    phys_operation();
+                    //phys_operation();
                     break;       
                 default:
                     printf("\nError");/*Mode doesn't exist*/
