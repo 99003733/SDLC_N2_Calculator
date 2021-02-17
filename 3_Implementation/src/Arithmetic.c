@@ -33,7 +33,7 @@ void basic_arithmetic()
         printf("\n\n3)MULTIPLICATION");
         printf("\n\n4)DIVISION");
         printf("\n\n5)TO RESET THE CALCULATOR");
-        print("\n\nEnter your Choice:");
+        printf("\n\nEnter your Choice:");
         scanf("%d",&ch);
         switch(ch)
         {
@@ -86,7 +86,7 @@ void basic_arithmetic()
                 break;
             case 5:
                   result=0;
-                  return 0;
+                  return ;
                   break;
             default:
                  printf("\nWrong Choice");
