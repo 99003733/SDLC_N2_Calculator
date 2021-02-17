@@ -25,10 +25,10 @@ void calculator()
                    // Matrixoperations();
                     break;
                 case 3:
-                   //profit_loss();
+                    profit_loss();
                     break;
                 case 4:
-                    //phys_operation();
+                    phys_operation();
                     break;       
                 default:
                     printf("\nError");/*Mode doesn't exist*/
