@@ -50,6 +50,10 @@ test:$(BUILD)
 	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) -lm
 	./$(TEST_OUTPUT) 
 
+coverageCheck:$(BUILD)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
 # Remove all the built files, invoke by `make clean`
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
