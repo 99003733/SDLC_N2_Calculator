@@ -55,6 +55,10 @@ test:$(BUILD)
 coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
+	
+	
+memcheck: $(PROJECT_NAME).out
+	valgrind ./$(PROJECT_NAME).out
 
 # Remove all the built files, invoke by `make clean`
 clean:
