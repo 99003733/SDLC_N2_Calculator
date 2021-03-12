@@ -3,7 +3,6 @@
 #include <financial_Calculation.h>
 
 /* Modify these two lines according to the project */
-#include <special_Math_Functions.h>
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
