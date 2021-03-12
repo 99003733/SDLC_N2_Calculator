@@ -7,8 +7,10 @@ BUILD = build
 # All source code files
 SRC = src/Calculator.c\
 src/physics.c\
-test/test_physics.c\
+src/Arithmetic.c\
+src/Combinatorics.c\
 src/Profitloss.c\
+test/test_main.c\
 unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
