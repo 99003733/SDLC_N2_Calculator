@@ -6,7 +6,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-![C/C++ CI](Badgelink) | ![Cppcheck](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
+[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml) | [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
@@ -21,7 +21,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |17 No   |6 No     
+99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |6 No   |6 No     
 99003733 | Aditya | Physics, profit and loss | 1 No | 0 No | 15 No | 6 No 
  
 
