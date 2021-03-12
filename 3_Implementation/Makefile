@@ -47,7 +47,7 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) -lm
+	gcc $(SRC) $(INC) -o $(TEST_OUTPUT).out -lm
 	./$(TEST_OUTPUT) 
 
 coverageCheck:$(BUILD)
