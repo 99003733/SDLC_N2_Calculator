@@ -22,7 +22,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |6 No   |6 No     
 99003733 | Aditya | Physics, profit and loss | 1 No | 0 No | 15 No | 6 No 
-99003735 | Premkumar | Mensuration | 2 No | 1 No | 6 No | 6 No |  
+99003735 | Premkumar | Mensuration | 0 No | 0 No | 6 No | 6 No |  
+99003734 | Akbar | Special math functions, financial operations | 0 No | 0 N0 | 6 No | 6 No
 
 ## Challenges Faced and How Was It Overcome
 
