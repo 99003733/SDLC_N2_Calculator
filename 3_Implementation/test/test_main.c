@@ -3,6 +3,7 @@
 #include <profitloss.h>
 #include <Arithmetic.h>
 #include <Combinatorics.h>
+#include<mensuration.h>
 
 /* Modify these two lines according to the project */
 #define PROJECT_NAME    "Calculator"
@@ -24,6 +25,13 @@ void test_divide(void);
 void test_permutation(void);
 void test_permutation2(void);
 void test_combination(void);
+
+/*mensuration function prototypes*/
+void test_area_of_square(void);
+void test_area_of_square_testcase2(void);
+void test_area_of_circle(void);
+void test_area_of_sphere(void);
+void test_volume_of_sphere(void);
 
 void test_acceleration(void);
 void test_capacitive_rec(void);
@@ -66,6 +74,12 @@ int main()
   RUN_TEST(test_permutation);
   RUN_TEST(test_permutation2);
   RUN_TEST(test_combination);
+  /*Test for Mensuration functions*/
+   RUN_TEST(test_area_of_square);
+  RUN_TEST(test_area_of_square);
+  RUN_TEST(test_area_of_circle);
+  RUN_TEST(test_area_of_sphere);
+  RUN_TEST(test_volume_of_sphere);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
@@ -173,4 +187,40 @@ void test_combination(void) {
   
   /* Dummy fail*/
  /* TEST_ASSERT_EQUAL(40, combinations(10, 4));*/
+}
+
+
+void test_area_of_square(void) 
+{
+  TEST_ASSERT_EQUAL(4.00, area_of_square(2));
+  TEST_ASSERT_EQUAL(9.00, area_of_square(3));
+}
+void test_area_of_square_testcase2(void) 
+{
+ 
+  /* Dummy fail*/
+  //TEST_ASSERT_EQUAL(59.00, area_of_square(7));
+}
+void test_area_of_circle(void) 
+{
+  TEST_ASSERT_EQUAL(27.00, area_of_circle(3));
+  
+  /* Dummy fail*/
+  //TEST_ASSERT_EQUAL(30.00, area_of_circle(10));
+}
+
+void test_area_of_sphere(void)
+ {
+  TEST_ASSERT_EQUAL(48.00, area_of_sphere(2));
+  
+  /* Dummy fail*/
+  //TEST_ASSERT_EQUAL(2.00,area_of_sphere(5));
+}
+
+void test_volume_of_sphere(void) 
+{
+  TEST_ASSERT_EQUAL(3.00, volume_of_sphere(1));
+  
+  /* Dummy fail*/
+  //TEST_ASSERT_EQUAL(20.00, volume_of_sphere(2));
 }
