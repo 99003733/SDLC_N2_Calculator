@@ -49,8 +49,8 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(SRC) $(INC) -o $(TEST_OUTPUT).out -lm
-	./$(TEST_OUTPUT) 
+	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) -lm
+	./$(TEST_OUTPUT)
 
 coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC) -o $(TEST_OUTPUT)
