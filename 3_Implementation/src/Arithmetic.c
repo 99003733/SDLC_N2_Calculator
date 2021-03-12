@@ -19,7 +19,7 @@ int NumberLengthCheck(double number)
         return 1;
     }
 }
-void basic_arithmetic()
+/*void basic_arithmetic()
 {
     static double result;
     do
@@ -93,7 +93,7 @@ void basic_arithmetic()
                  break;
         }
     } while(1);
-}
+}*/
 
 double Addition(double num1,double num2)
 {
