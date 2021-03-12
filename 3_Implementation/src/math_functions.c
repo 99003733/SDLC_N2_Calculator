@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #include <math.h>
-void math_Functions()
+/*int main()
 {
    static double result;
     do
@@ -37,14 +37,14 @@ void math_Functions()
     break;
  }
 }while(1);
-}
+}*/
 double logarithm(double input)//logarithm function
 {
 double log_value;
 log_value = log10(input);
 return log_value;
 }
-double exponent(double input)//exponent function
+double exponent(float input)//exponent function
 {
 double exp_value;
 exp_value = exp(input);
