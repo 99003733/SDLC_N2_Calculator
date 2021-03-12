@@ -10,6 +10,7 @@ src/physics.c\
 src/Arithmetic.c\
 src/Combinatorics.c\
 src/Profitloss.c\
+src/mensuration.c\
 test/test_main.c\
 unity/unity.c
 
