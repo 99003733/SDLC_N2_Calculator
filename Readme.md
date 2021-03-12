@@ -6,7 +6,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | ![Cppcheck](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
+[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | ![Cppcheck](Badgelink) | [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| ![Git Inspector](Badgelink)
 
 
 ## Folder Structure
