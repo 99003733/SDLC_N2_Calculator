@@ -5,38 +5,14 @@
 
 void calculator()
 {
-        int ch,mode;
-        printf("\nPress 1- for Special Modes");
-        scanf("%d",&mode);
-        if(mode==1)
-        {
-            printf("\n\n1) PERMUTATIONS AND COMBINATIONS MODE");
-            printf("\n\n2) MATRIX MODE");
-            printf("\n\n3) PHYSICS MODE");
-            printf("\n\n4) PROFIT LOSS MODE");
-            printf("\nEnter your choice:");
-            scanf("%d",&ch);
-            switch(ch)
-            {
-                case 1:
-                    combinatorics();
-                    break;
-                case 2:
-                   // Matrixoperations();
-                    break;
-                case 3:
-                    profit_loss();
-                    break;
-                case 4:
-                    phys_operation();
-                    break;       
-                default:
-                    printf("\nError");/*Mode doesn't exist*/
-                    break;
-            }
-        }
-        else
-        {
-            basic_arithmetic();
-        }
+    
+          
+                    //combinatorics();
+                   // profit_loss();
+double acceleration(float, float, float);
+double capacitive_rec(float, float);
+double circular_velocity(double, double);
+double gravitation_force(float, float, float);
+double projectile_motion(float , float);
+            //basic_arithmetic();
 }
