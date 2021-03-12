@@ -105,7 +105,7 @@ double Addition(double num1,double num2)
 double subtract(double num1,double num2)
 {
     double sub;
-    sub=num1+num2;
+    sub=num1-num2;
     return sub;
 }
 
@@ -121,5 +121,12 @@ double divide(double num1,double num2)
 {
     double div;
     div=num1/num2;
-    return div;
+    if(num2==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return div;
+    }
 }
