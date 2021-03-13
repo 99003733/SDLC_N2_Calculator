@@ -38,8 +38,10 @@ void test_divide5(void);
 /*Combinatorics function prototypes*/
 void test_permutation(void);
 void test_permutation2(void);
+void test_permutation3(void);
 void test_combination(void);
 void test_combination2(void);
+void test_combination3(void);
 
 /*mensuration function prototypes*/
 void test_area_of_square(void);
@@ -109,8 +111,10 @@ int main()
   /*Tests for Combinatorics functions*/
   RUN_TEST(test_permutation);
   RUN_TEST(test_permutation2);
+  RUN_TEST(test_permutation3);
   RUN_TEST(test_combination);
   RUN_TEST(test_combination2);
+  RUN_TEST(test_combination3);
 
   /*Test for Mensuration functions*/
    RUN_TEST(test_area_of_square);
@@ -276,8 +280,11 @@ void test_permutation(void) {
 }
 void test_permutation2(void) {
  
-  /* Dummy fail*/
   TEST_ASSERT_EQUAL(-1, permutations(4, 6));/*test case when number of permutation required is more than total no. of objects*/
+}
+void test_permutation3(void) {
+ 
+  TEST_ASSERT_EQUAL(-1, permutations(-3, 1));/*test case when n or r value is negative*/
 }
 
 void test_combination(void) {
@@ -290,6 +297,11 @@ void test_combination(void) {
 void test_combination2(void)
 {
   TEST_ASSERT_EQUAL(-1,combinations(4,10));/*test case when number of combinations required is more than total no. of objects*/
+}
+
+void test_combination3(void)
+{
+  TEST_ASSERT_EQUAL(-1,combinations(5,-9));/*test case when n or r value is negative*/
 }
 
 void test_area_of_square(void) 

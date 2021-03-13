@@ -52,6 +52,11 @@ void combinatorics()
 }
 double factorial(int num)
 {
+    if(num < 0)
+    {
+      return -1;//Error
+    }
+    else
     if(num==0)
     {
         return 1;
@@ -69,7 +74,7 @@ double factorial(int num)
 
 double permutations(int n,int r)
 {
-    if(n<r)
+    if((n<r)||(n<0)||(r<0))
     {
       return -1;//This -1 reference to error
     }
@@ -78,7 +83,6 @@ double permutations(int n,int r)
       double nfact,n_rfact;
       nfact=factorial(n);
       n_rfact=factorial(n-r);
-
       double per=nfact/n_rfact;
       return per;
     }
@@ -86,7 +90,7 @@ double permutations(int n,int r)
 
 double combinations(int n,int r)
 {
-    if(n<r)
+    if((n<r)||(n<0)||(r<0))
     {
       return -1;//This -1 reference to error
     }
