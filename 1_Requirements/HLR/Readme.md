@@ -7,8 +7,8 @@
 | HLRSS003 | Basic Arithmetic Calculations | Very basic operations like +,-,/,* | Implementing |
 | HLRSS004 | Matrix operation | Several Matrix functions | Future |
 | HLRSS005 | Combinatorics Calculation | Permutation and Combination | Implementing |
-| HLRSA006 | Addition of Special math functions | Several math operations | Implementing |
-| HLRSA007 | Addition of financial calculation | Interest Calculations | Implementing |
+| HLRSA006 | Special math functions | funtions like logarithm, exponential, squareroot | Implementing |
+| HLRSA007 | financial calculation | Simple interest, Compound interest, EMI calculation | Implementing |
 | HLRPK008 | Mensuration | Area,Volume| Implementing |
 | HLRPK009 | AP,GP,Sum| Mean | Implementing |
 
