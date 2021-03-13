@@ -2,22 +2,9 @@
 #include<stdio.h>
 
 
-int NumberLengthCheck(double number)
+int NumberLength(double number)
 {
-    int count=0;
-    while(number!=0)
-    {
-        number=number/10;
-        count++;
-    }
-    if(count>14)
-    {
-        return -1;
-    }
-    else
-    {
-        return 1;
-    }
+    return floor(log10(number) + 1);
 }
 /*void basic_arithmetic()
 {
@@ -97,36 +84,43 @@ int NumberLengthCheck(double number)
 
 double Addition(double num1,double num2)
 {
-    double add;
-    add=num1+num2;
-    return add;
+    double added_value;
+    added_value=num1+num2;
+    return added_value;
 }
 
 double subtract(double num1,double num2)
 {
-    double sub;
-    sub=num1-num2;
-    return sub;
+    double subtracted_value;
+    subtracted_value=(num1)-(num2);
+    return subtracted_value;
 }
 
 
 double multiply(double num1,double num2)
 {
-    double mul;
-    mul=num1*num2;
-    return mul;
+    double multiplied_value;
+    multiplied_value=(num1)*(num2);
+    if(NumberLength(multiplied_value) > 14)
+    {
+        return -1;//if output is -1 then it means output length is more than 14 digits
+    }
+    else
+    {
+        return multiplied_value;
+    }
 }
 
 double divide(double num1,double num2)
 {
-    double div;
-    div=num1/num2;
+    double divided_value;
+    divided_value=num1/num2;
     if(num2==0)
     {
-        return 0;
+        return -1;//-1 display Divide by zero error
     }
     else
     {
-        return div;
+        return divided_value;
     }
 }

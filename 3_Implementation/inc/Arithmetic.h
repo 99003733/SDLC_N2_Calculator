@@ -7,9 +7,10 @@
 # define __ARITHMETIC_H
 
 #include<stdio.h> 
+#include<math.h>
 
 void basic_arithmetic();
-int NumberLengthCheck(double);
+int NumberLength(double);
 double Addition(double,double);/*give all function prototype*/
 double subtract(double,double);
 double multiply(double,double);
