@@ -1,7 +1,7 @@
 #include"Combinatorics.h"
 #include<stdio.h>
 
-/*void combinatorics()
+void combinatorics()
 {
     do
     {
@@ -50,7 +50,6 @@
         }
     } while(1);
 }
-*/
 double factorial(int num)
 {
     if(num==0)

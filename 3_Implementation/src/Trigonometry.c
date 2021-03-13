@@ -1,14 +1,8 @@
+#include"special_Math_Functions.h"
 #include <stdio.h>
 #include<math.h>
 
-void Sine_function(double input);//sine operator function
-void Cosine_function(double input);//cosine operator function
-void Tangent_function(double input);//tangent operator function
-void Cosecant_function(double input);//cosecant operator function
-void Secant_function(double input);//secant operator function
-void Cotangent_function(double input);//cotangent operator function
-
-int main()
+void Trigonometry()
 {
     int select_option;
     double radian;
@@ -43,24 +37,23 @@ int main()
 
         printf("Do you want calculate again? \n1. Yes 2. No\n");
         scanf("%d",&second_Input);
-    }
-    while(second_Input==1);
+    }while(second_Input==1);
 }
-    void Sine_function(double radian ){
+void Sine_function(double radian ){
         printf("\n %lf\n",sin(radian));
-    }
-    void Cosine_function(double radian ){
+}
+void Cosine_function(double radian ){
         printf("\n %lf\n",cos(radian));
-    }
-    void Tangent_function(double radian ){
+}
+void Tangent_function(double radian ){
         printf("\n %lf\n",tan(radian));
-    }
-    void Cosecant_function(double radian ){
+}
+void Cosecant_function(double radian ){
         printf("\n %lf\n",(1.0/sin(radian)));
-    }
-    void Secant_function(double radian ){
+}
+void Secant_function(double radian ){
         printf("\n %lf\n",(1.0/cos(radian)));
-    }
-    void Cotangent_function(double radian ){
+}
+void Cotangent_function(double radian ){
         printf("\n %lf\n",(1.0/tan(radian)));
-    }
+}

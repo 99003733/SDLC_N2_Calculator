@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #include<math.h>
-/*int main() //created function
+void financial_Calculation() //created function
 {    
     static double result;
     do
@@ -58,7 +58,8 @@
     break;
  }
 }while(1);
-}*/
+}
+
 double simple_Interest(double principal_amount,float time_period,float rate_of_interest )
 {
 double simp_Interest;

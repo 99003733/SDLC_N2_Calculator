@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #include <math.h>
-/*int main()
+void math_Functions()
 {
    static double result;
     do
@@ -37,7 +37,8 @@
     break;
  }
 }while(1);
-}*/
+}
+
 double logarithm(double input)//logarithm function
 {
 double log_value;

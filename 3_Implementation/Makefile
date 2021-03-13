@@ -13,6 +13,7 @@ src/Profitloss.c\
 src/mensuration.c\
 src/math_functions.c\
 src/financial_Calculation.c\
+src/Trigonometry.c\
 test/test_main.c\
 unity/unity.c
 

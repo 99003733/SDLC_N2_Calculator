@@ -6,7 +6,7 @@ int NumberLength(double number)
 {
     return floor(log10(number) + 1);
 }
-/*void basic_arithmetic()
+void basic_arithmetic()
 {
     static double result;
     do
@@ -46,7 +46,7 @@ int NumberLength(double number)
                 printf("\nEnter a number:");
                 scanf("%lf",&num2);
                 result= multiply(num1,num2);
-                if(NumberLengthCheck(result)==1)
+                if(NumberLength(result)==1)
                 {
                     printf("%lf",result);
                 }
@@ -80,7 +80,7 @@ int NumberLength(double number)
                  break;
         }
     } while(1);
-}*/
+}
 
 double Addition(double num1,double num2)
 {
