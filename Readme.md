@@ -4,10 +4,9 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Cppcheck | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml) | [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml)
-
+Build | Code Quality | Unity | [Git Inspector](using github.io option)|
+------|----------|-------|--------------------------------------------|
+[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml) | [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml) | 
 
 ## Folder Structure
 Folder             | Description
@@ -23,13 +22,15 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |6 No   |6 No     
 99003733 | Aditya | Physics, profit and loss | 1 No | 0 No | 15 No | 6 No 
- 
+99003735 | Premkumar | Mensuration | 0 No | 0 No | 6 No | 6 No |  
+99003734 | Akbar | Special math functions, financial calculations | 0 No | 0 N0 | 6 No | 6 No
 
 ## Challenges Faced and How Was It Overcome
 
-1. Case Sensitive issue.
-2. Make file issue.
-3. File integration issue.
+1. Running the make file as its resolved by defining its correct path
+2. Syncronizing the vs code to github , colleague help to resolve the issue
+3. Making the function call in correct path
+
 
 
 ## Learning Resources

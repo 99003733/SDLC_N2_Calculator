@@ -1,8 +1,8 @@
-#include "finance_Calculation.h" //mention .h file 
+#include "financial_Calculation.h" //mention .h file 
 #include <stdio.h>
 
 #include<math.h>
-void finance_Calculation() //created function
+/*int main() //created function
 {    
     static double result;
     do
@@ -14,7 +14,7 @@ void finance_Calculation() //created function
  
     double principal_amount;
     
-     printf("Please choose only one option for financial operation:\n");//select operation to be performed
+     printf("\nPlease choose only one option for financial operation:\n");//select operation to be performed
      printf(" 1. simple interest\n 2. compound interest\n 3. emi amount\n");//operations
      scanf("%d",&select_option);
      
@@ -58,20 +58,20 @@ void finance_Calculation() //created function
     break;
  }
 }while(1);
-}
-double simple_Interest(double principal_amount,float time_period,double rate_of_interest )
+}*/
+double simple_Interest(double principal_amount,float time_period,float rate_of_interest )
 {
 double simp_Interest;
 simp_Interest=principal_amount*time_period*rate_of_interest/100;
 return simp_Interest;
 }
-double compound_Interest(double principal_amount,float time_period,double rate_of_interest )
+double compound_Interest(double principal_amount,float time_period,float rate_of_interest )
 {
 double comp_Interest;
 comp_Interest=principal_amount*pow((1 +rate_of_interest/100),time_period)-principal_amount;
 return comp_Interest;
 }
-double emi_Calculator(double principal_amount,float time_period,double rate_of_interest )
+double emi_Calculator(double principal_amount,float time_period,float rate_of_interest )
 {
 double emi_Calc;
 emi_Calc=(principal_amount * rate_of_interest * pow(1 + rate_of_interest, time_period)) / (pow(1 + rate_of_interest, time_period) - 1);
