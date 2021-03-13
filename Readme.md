@@ -6,7 +6,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)|
 ------|----------|-------|--------------------------------------------|
-[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml) | [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml) | 
+[![C/C++ CI - Build Status](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/CodeQuality_Dynamic.yml)[![CI-Coverage](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gcov.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gcov.yml)| [![Unit Testing - Unity](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003733/SDLC_N2_Calculator/actions/workflows/gitinspector.yml) | 
 
 ## Folder Structure
 Folder             | Description
@@ -20,7 +20,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |22 No   |22 No     
+99003731 | Shivanshu  | Arithmetic,Combinatorics,Matrix   | 2 No     | 1 No   |22 No   |22 No     
 99003733 | Aditya | Physics, profit and loss | 1 No | 1 No | 6 No | 6 No 
 99003735 | Premkumar | Mensuration | 0 No | 0 No | 6 No | 6 No |  
 99003734 | Akbar | Special math functions, financial calculations | 0 No | 0 N0 | 6 No | 6 No
