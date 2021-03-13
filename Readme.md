@@ -27,9 +27,11 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. Case Sensitive issue.
-2. Make file issue.
-3. File integration issue.
+1. Running the make file as its resolved by defining its correct path
+2. Syncronizing the vs code to github , colleague help to resolve the issue
+3. Making the function call in correct path
+4. Open git log while committing, thus went to github desktop and pulled origin and then pushed origin.
+5. Test case code for the boundary problem. Added code with the help of internet
 
 
 ## Learning Resources
