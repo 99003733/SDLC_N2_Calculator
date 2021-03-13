@@ -20,8 +20,8 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |6 No   |6 No     
-99003733 | Aditya | Physics, profit and loss | 1 No | 0 No | 15 No | 6 No 
+99003731 | Shivanshu  | arithmetic,matrix,combinatorics   | 2 No     | 1 No   |22 No   |22 No     
+99003733 | Aditya | Physics, profit and loss | 1 No | 1 No | 6 No | 6 No 
 99003735 | Premkumar | Mensuration | 0 No | 0 No | 6 No | 6 No |  
 99003734 | Akbar | Special math functions, financial calculations | 0 No | 0 N0 | 6 No | 6 No
 
