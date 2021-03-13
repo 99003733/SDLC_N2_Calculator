@@ -1,7 +1,7 @@
 #include"Combinatorics.h"
 #include<stdio.h>
 
-void combinatorics()
+/*void combinatorics()
 {
     do
     {
@@ -50,7 +50,7 @@ void combinatorics()
         }
     } while(1);
 }
-
+*/
 double factorial(int num)
 {
     if(num==0)
@@ -70,20 +70,34 @@ double factorial(int num)
 
 double permutations(int n,int r)
 {
-    double nfact,n_rfact;
-    nfact=factorial(n);
-    n_rfact=factorial(n-r);
+    if(n<r)
+    {
+      return -1;//This -1 reference to error
+    }
+    else
+    {
+      double nfact,n_rfact;
+      nfact=factorial(n);
+      n_rfact=factorial(n-r);
 
-     double per=nfact/n_rfact;
-     return per;
+      double per=nfact/n_rfact;
+      return per;
+    }
 }
 
 double combinations(int n,int r)
 {
-    double n_fact,n_rfact,r_fact;
-    n_fact=factorial(n);
-    n_rfact=factorial(n-r);
-    r_fact=factorial(r);
-    double comb=(n_fact)/(r_fact*n_rfact);
-    return comb;
+    if(n<r)
+    {
+      return -1;//This -1 reference to error
+    }
+    else
+    {
+      double n_fact,n_rfact,r_fact;
+      n_fact=factorial(n);
+      n_rfact=factorial(n-r);
+      r_fact=factorial(r);
+      double comb=(n_fact)/(r_fact*n_rfact);
+      return comb;
+    }
 }
