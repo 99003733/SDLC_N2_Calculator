@@ -15,15 +15,28 @@ void test_combination(void);
 /*Arithmetic function prototype*/
 void test_add(void);
 void test_add_testcase2(void);
+void test_add_testcase3(void);
+void test_add_testcase4(void);
 void test_subtract(void);
+void test_subtract2(void);
+void test_subtract3(void);
+void test_subtract4(void);
 void test_multiply(void);
 void test_multiply2(void);
+void test_multiply3(void);
+void test_multiply4(void);
+void test_multiply5(void);
 void test_divide(void);
+void test_divide2(void);
+void test_divide3(void);
+void test_divide4(void);
+void test_divide5(void);
 
 /*Combinatorics function prototypes*/
 void test_permutation(void);
 void test_permutation2(void);
 void test_combination(void);
+void test_combination2(void);
 
 void test_acceleration(void);
 void test_capacitive_rec(void);
@@ -58,14 +71,28 @@ int main()
   /*Tests for arithmetic functions */
   RUN_TEST(test_add);
   RUN_TEST(test_add_testcase2);
+  RUN_TEST(test_add_testcase3);
+  RUN_TEST(test_add_testcase4);
   RUN_TEST(test_subtract);
+  RUN_TEST(test_subtract2);
+  RUN_TEST(test_subtract3);
+  RUN_TEST(test_subtract4);
   RUN_TEST(test_multiply);
   RUN_TEST(test_multiply2);
+  RUN_TEST(test_multiply3);
+  RUN_TEST(test_multiply4);
+  RUN_TEST(test_multiply5);
   RUN_TEST(test_divide);
+  RUN_TEST(test_divide2);
+  RUN_TEST(test_divide3);
+  RUN_TEST(test_divide4);
+  RUN_TEST(test_divide5);
+  
   /*Tests for Combinatorics functions*/
   RUN_TEST(test_permutation);
   RUN_TEST(test_permutation2);
   RUN_TEST(test_combination);
+  RUN_TEST(test_combination2);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
@@ -110,7 +137,6 @@ void test_gravitation_force(void)
 //   // TEST_ASSERT_EQUAL(80, projectile_motion(25,45));
 // }
 
-
 void test_cal_profit(void)
 {
   TEST_ASSERT_EQUAL(147, cal_profit(200, 53));
@@ -124,21 +150,42 @@ void test_discount(void) {
   // TEST_ASSERT_EQUAL(100, discount(120, 5));
 }
 
-
-void test_add(void) {
+/*Basic Arithmetic operation test case definition*/
+void test_add(void) 
+{
   TEST_ASSERT_EQUAL(50, Addition(30, 20));
+}
+void test_add_testcase2(void) 
+{
+  TEST_ASSERT_EQUAL(-8250, Addition(-750, -7500));
+}
+void test_add_testcase3(void) 
+{
   TEST_ASSERT_EQUAL(-10, Addition(10, -20));
 }
-void test_add_testcase2(void) {
- 
-  /* Dummy fail*/
-  /*TEST_ASSERT_EQUAL(1500, Addition(750, 7500));*/
+void test_add_testcase4(void) 
+{
+  TEST_ASSERT_EQUAL(-78, Addition(-98, 20));
 }
-void test_subtract(void) {
+void test_subtract(void) 
+{
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
   
   /* Dummy fail*/
   /*TEST_ASSERT_EQUAL(1, subtract(1000, 900));*/
+}
+void test_subtract2(void) 
+{
+  TEST_ASSERT_EQUAL(9, subtract(13, 4));
+
+}
+void test_subtract3(void) 
+{
+  TEST_ASSERT_EQUAL(-51, subtract(-45, 6));
+}
+void test_subtract4(void) 
+{
+  TEST_ASSERT_EQUAL(-240, subtract(-7985, -7745));
 }
 
 void test_multiply(void) {
@@ -147,30 +194,67 @@ void test_multiply(void) {
   /* Dummy fail*/
   /*TEST_ASSERT_EQUAL(2, multiply(2, 5));*/
 }
-
 void test_multiply2(void)
 {
-  TEST_ASSERT_EQUAL(9999999900000000, multiply(100000000,99999999));
+  TEST_ASSERT_EQUAL(-60, multiply(-20,3));
 }
-void test_divide(void) {
-  TEST_ASSERT_EQUAL(0, divide(1, 0));
+void test_multiply3(void)
+{
+  TEST_ASSERT_EQUAL(-725835, multiply(8745,-83));
+}
+void test_multiply4(void)
+{
+  TEST_ASSERT_EQUAL(98901, multiply(-99,-999));
+}
+void test_multiply5(void)
+{
+  TEST_ASSERT_EQUAL(-1, multiply(100000000,99999999));
+}
+
+void test_divide(void)
+{
+  TEST_ASSERT_EQUAL( 3,divide(27,9));
+}
+void test_divide2(void)
+{
+  TEST_ASSERT_EQUAL(-1, divide(1, 0));//Test for divide by zero
   
   /* Dummy fail*/
   /*TEST_ASSERT_EQUAL(3, divide(2, 2));*/
 }
+void test_divide3(void)
+{
+  TEST_ASSERT_EQUAL(45, divide(-135, -3));
+}
+void test_divide4(void)
+{
+  TEST_ASSERT_EQUAL(-2, divide(-28, 14));
+}
+void test_divide5(void)
+{
+  TEST_ASSERT_EQUAL(-8,divide(96,-12));
+}
 
+/*Combinatorics test case definition*/
 void test_permutation(void) {
   TEST_ASSERT_EQUAL(5, permutations(5, 1));
+  /*dummy fail*/
   /*TEST_ASSERT_EQUAL(12, permutations(4,2));*/
 }
 void test_permutation2(void) {
  
   /* Dummy fail*/
-  /*TEST_ASSERT_EQUAL(10, permutations(6, 4));*/
+  TEST_ASSERT_EQUAL(-1, permutations(4, 6));/*test case when number of permutation required is more than total no. of objects*/
 }
+
 void test_combination(void) {
-  TEST_ASSERT_EQUAL(2, combinations(2, 1));
+  TEST_ASSERT_EQUAL(10, combinations(5, 2));
   
   /* Dummy fail*/
  /* TEST_ASSERT_EQUAL(40, combinations(10, 4));*/
+}
+
+void test_combination2(void)
+{
+  TEST_ASSERT_EQUAL(-1,combinations(4,10));/*test case when number of combinations required is more than total no. of objects*/
 }
