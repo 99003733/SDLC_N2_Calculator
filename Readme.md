@@ -30,8 +30,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 1. Running the make file as its resolved by defining its correct path
 2. Syncronizing the vs code to github , colleague help to resolve the issue
 3. Making the function call in correct path
-4. Open git log while committing, thus went to github desktop and pulled origin and then pushed origin.
-5. Test case code for the boundary problem. Added code with the help of internet
+
 
 
 ## Learning Resources
