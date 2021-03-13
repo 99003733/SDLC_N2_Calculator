@@ -14,6 +14,7 @@ src/mensuration.c\
 src/math_functions.c\
 src/financial_Calculation.c\
 src/Trigonometry.c\
+src/Matrix.c\
 test/test_main.c\
 unity/unity.c
 

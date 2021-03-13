@@ -1,12 +1,15 @@
-# include"matrix.h"
+# include"Matrix.h"
 # include<stdio.h>
+
+#include<stdio.h>
 
 void MatrixOperations()
 {
     int ch;
-    int amat[4][4],bmat[4][4];
+    int **amat,**bmat;
     static int am,an,bm,bn;
     char mat;        
+    char mat1,mat2;
     do
     {
         printf("\n\n\t\t\t___MATRIXMENU___");
@@ -16,7 +19,7 @@ void MatrixOperations()
         printf("\n\n4)MATRIX SUBTRACTION");
         printf("\n\n5)MATRIX MULTIPLICATION");
         printf("\n\n6)TO RESET THE CALCULATOR");
-        print("\n\nEnter your Choice:");
+        printf("\n\nEnter your Choice:");
         scanf("%d",&ch);
         switch(ch)
         {
@@ -40,6 +43,7 @@ void MatrixOperations()
                         scanf("%d",&bn);
                         bmat=Matinput(bm,bn);   
                         break;
+                 }
                   break;
            case 2:
                 printf("\nFor which matrix you want Determinant:");
@@ -49,7 +53,7 @@ void MatrixOperations()
                     case 'a':
                       if(am==an)
                       {
-                            determinant(amat,am);
+                            Determinant(amat,am);
                       }
                       else
                       {
@@ -59,19 +63,18 @@ void MatrixOperations()
                     case 'b':
                       if(bm==bn)
                       { 
-                            determinant(bmat,bm);
+                            Determinant(bmat,bm);
                       }
                       else
                       {
                           printf("\nDeterminant doesn't exist");
                       }
                     break;
-                default:printf("\nError");
+                    default:printf("\nError");
                     break;
                 }
                  break; 
             case 3:
-                 char mat1,mat2;
                  printf("\nEnter matrix's you want to add :");/*like enter a for matrix a , b for matrix b*/
                  printf("\nEnter first matrix:");
                  scanf("%c",&mat1);
@@ -90,7 +93,6 @@ void MatrixOperations()
                  }
                  break;
             case 4:
-                 char mat1,mat2;
                  printf("\nEnter matrix's you want to subtract :");/*like enter a for matrix a , b for matrix b*/
                  printf("\nEnter first matrix:");
                  scanf("%c",&mat1);
@@ -100,12 +102,12 @@ void MatrixOperations()
                  {
                    if((mat1=='a')&&(mat2=='b'))
                    {
-                     Mat_subtract(amat,bmat,am,an);
+                     Mat_Subtraction(amat,bmat,am,an);
                    }
                    else
                    if((mat1=='b')&&(mat2=='a'))
                    {
-                     Mat_subtract(bmat,amat,bm,bn);
+                     Mat_Subtraction(bmat,amat,bm,bn);
                    }
                    else
                    {
@@ -118,7 +120,6 @@ void MatrixOperations()
                  }
                  break;
             case 5:
-                 char mat1,mat2;
                  printf("\nEnter matrix's you want to multiply :");/*like enter a for matrix a , b for matrix b*/
                  printf("\nEnter first matrix:");
                  scanf("%c",&mat1);
@@ -126,12 +127,12 @@ void MatrixOperations()
                  scanf("%c",&mat2);
                  if((mat1=='a')&&(mat2=='b')&&(an==bm))
                  {
-                    Mat_multiply(amat,bmat,am,an,bm,bn);
+                    Mat_Multiply(amat,bmat,am,an,bm,bn);
                  }
                  else
                  if((mat1=='b')&&(mat2=='a')&&(bn==am))
                  {
-                     Mat_multiply(bmat,amat,bm,bn,am,an);
+                     Mat_Multiply(bmat,amat,bm,bn,am,an);
                  }
                  else
                  {
@@ -139,19 +140,19 @@ void MatrixOperations()
                  }
                  break;
             case 6:
-                  return 0;
+                  return ;
                   break;
             default:
                  printf("Invalid Choice");
                  break;
         }
-    } while(1);
+    }while(1);
 }
 
 int** Matinput(int m,int n)
 {
     int i,j;
-    int matrix[4][4];
+    int **matrix;
     for(i=1;i<=m;i++)
     {
         for(j=1;j<=n;j++)
@@ -164,7 +165,7 @@ int** Matinput(int m,int n)
     return matrix;
 }
 
-void Determinant(int matrix[4][4],int m,int n)
+void Determinant(int **matrix,int m)
 {
     int det;
     if(m==2)
@@ -179,7 +180,7 @@ void Determinant(int matrix[4][4],int m,int n)
     }
 }
 
-void Mat_addition(int matrix1[4][4],int matrix2[4][4],int m,int n)
+void Mat_addition(int **matrix1,int **matrix2,int m,int n)
 {
     int i,j;
     int add[4][4];
@@ -188,14 +189,13 @@ void Mat_addition(int matrix1[4][4],int matrix2[4][4],int m,int n)
         for(j=1;i<=n;j++)
         {
             add[i][j]=matrix1[i][j]+matrix2[i][j];
-            printf("%d ",i,j);        
         }
         printf("\n");
     }
 }
 
 
-void Mat_subtract(int matrix1[4][4],int matrix2[4][4],int m,int n)
+void Mat_Subtraction(int **matrix1,int **matrix2,int m,int n)
 {
     int i,j;
     int sub[4][4];
@@ -204,13 +204,12 @@ void Mat_subtract(int matrix1[4][4],int matrix2[4][4],int m,int n)
         for(j=1;i<=n;j++)
         {
             sub[i][j]=matrix1[i][j]-matrix2[i][j];
-            printf("%d ",i,j);        
         }
         printf("\n");
     }
 }
 
-void Mat_multiply(int matrix[4][4],int matrix[4][4],int m1,int n1,int m2,int n2)
+void Mat_Multiply(int **matrix1,int **matrix2,int m1,int n1,int m2,int n2)
 {
     int i,j,k;
     int mul[4][4];
@@ -233,9 +232,9 @@ void Mat_multiply(int matrix[4][4],int matrix[4][4],int m1,int n1,int m2,int n2)
     }
     for(i=1;i<=m1;i++)
     {
-        for(j=1;j<=n1;j++)
+        for(j=1;j<=n2;j++)
         {
-            printf("%d ",mul[i][j]);
+            printf("%d",mul[i][j]);
         }
         printf("\n");
     }

@@ -7,6 +7,8 @@
 # include"mensuration.h"
 # include"special_Math_Functions.h"
 # include"financial_Calculation.h"
+#include"Matrix.h"
+
 
 void calculator()
 {
@@ -25,7 +27,8 @@ void calculator()
             printf("\nPress 5-To Calculate Profit loss");
             printf("\nPress 6-To Perform Financial Calculations");
             printf("\nPress 7-To Perform Trigonometric Operations");
-            printf("\nPress 8-To Reset Calculator");
+            printf("\nPress 8-To Perform Matrix Operations");
+            printf("\nPress 9-To Reset Calculator");
             scanf("%d",&choice);
             switch(choice)
             {
@@ -48,6 +51,9 @@ void calculator()
                        Trigonometry();
                        break;
                 case 8:
+                      MatrixOperations();
+                      break;
+                case 9:
                       return ;
                       break;
                 default:
