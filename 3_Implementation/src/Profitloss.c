@@ -9,7 +9,7 @@ void profit_loss()
         double sp, cp, mp, res, d, amount, disc_price;
         printf("\n\n\t\t\t___PROFITLOSS OPERATION MENU___");
         printf("\n\n1)PROFIT_LOSS");
-        printf("\n\n3)DISCOUNT");
+        printf("\n\n2)DISCOUNT");
 
         printf("Enter your choice: ");
         scanf("%d", &num);
