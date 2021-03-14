@@ -16,10 +16,8 @@ src/math_functions.c\
 src/financial_Calculation.c\
 src/Trigonometry.c\
 src/Matrix.c\
-unity/unity.c
 
-TEST_SRC = src/Calculator.c\
-src/physics.c\
+TEST_SRC = src/physics.c\
 src/Arithmetic.c\
 src/Combinatorics.c\
 src/Profitloss.c\
