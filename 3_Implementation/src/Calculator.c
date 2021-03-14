@@ -21,8 +21,8 @@ void calculator()
         if(mode ==1)
         {
             printf("\nPress 1- For Calculating Permutations and Combinations");
-            printf("\nPress 2-To Perfrom physics operations");
-            printf("\nPress 3-To Perfrom Special mathematical functions(like logarithmic,exponential etc.)");
+            printf("\nPress 2-To Perform physics operations");
+            printf("\nPress 3-To Perform Special mathematical functions(like logarithmic,exponential,etc.)");
             printf("\nPress 4-To Calculate Area and Volumes");
             printf("\nPress 5-To Calculate Profit loss");
             printf("\nPress 6-To Perform Financial Calculations");
