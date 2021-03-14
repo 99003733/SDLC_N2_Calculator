@@ -5,7 +5,20 @@ PROJECT_NAME = Calculator
 BUILD = build
 
 # All source code files
-SRC = src/Calculator.c\
+SRC = project_main.c\
+src/Calculator.c\
+src/physics.c\
+src/Arithmetic.c\
+src/Combinatorics.c\
+src/Profitloss.c\
+src/mensuration.c\
+src/math_functions.c\
+src/financial_Calculation.c\
+src/Trigonometry.c\
+src/Matrix.c\
+unity/unity.c
+
+TEST_SRC = src/Calculator.c\
 src/physics.c\
 src/Arithmetic.c\
 src/Combinatorics.c\
@@ -54,7 +67,7 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) -lm
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lm
 	./$(TEST_OUTPUT)
 
 coverageCheck:$(BUILD)
