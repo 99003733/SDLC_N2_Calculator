@@ -27,16 +27,12 @@
 | HLRPK007 - LR1 | Area | Initiating the required input | Implementing |
 | HLRPK007 - LR2 | Volume | Initiating the required input | Implementing |
 | HLRPK008 - LR1 | Mean | Initiating the required input | Implementing |
-
-##  Low level Requirements:
-| ID | Requirements | Description | Status |
-| --- | --- | --- | --- |
-| HLRSA001 - LR1 | logarithm | Taking one number as input with base as 10 | Implemented |
-| HLRSA001 - LR2 | exponential | Taking one number as input | Implemented |
-| HLRSA001 - LR3 | Squareroot | Taking one number as input | Implemented |
-| HLRSA002 - LR1 | Simple interest calculator | Taking Principal amount,Time period,Rate of interest as input | Implemented |
-| HLRSA002 - LR2 | Compound interest calculator | Taking Principal amount,Time period,Rate of interest as input | Implemented |
-| HLRSA002 - LR3 | EMI Calculator | Taking Principal amount,Time period,Rate of interest as input | Implemented |
+| HLRSA009 - LR1 | logarithm | Taking one number as input with base as 10 | Implementing |
+| HLRSA009 - LR2 | exponential | Taking one number as input | Implementing |
+| HLRSA009 - LR3 | Squareroot | Taking one number as input | Implementing |
+| HLRSA0010 - LR1 | Simple interest calculator | Taking Principal amount,Time period,Rate of interest as input | Implementing |
+| HLRSA0010 - LR2 | Compound interest calculator | Taking Principal amount,Time period,Rate of interest as input | Implementing |
+| HLRSA0010 - LR3 | EMI Calculator | Taking Principal amount,Time period,Rate of interest as input | Implementing |
 
 
 
