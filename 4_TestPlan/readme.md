@@ -71,23 +71,3 @@
 |  L_1412    | volume of square operation | num1= 1 | result=4 | result=44 |Scenario based |
 
 
-# TEST PLAN:
-## Table no: Low level test plan
-
-| **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-
-|  L_1011    |Calculate simple interest | principal amount=10000, Time period=2, rate of interest=8 | result=1600 | result=1600 | Requirement based |
-|  L_1021    |Calculate compound interest | principal amount=10000, Time period=2, rate of interest=8 | result=1728 | result=1728 | Requirement based |
-|  L_1031    |Calculate EMI amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 | result=10855 | Requirement based |
-|  L_1041    |Calculate Loan amount | principal amount=10000, Time period=2, rate of interest=8 | result=10855 | result=10855 | Requirement based |
-|  L_1051    |Calculate simple interest | principal amount=10000, Time period=3, rate of interest=6 | result=1800 | result=2000 | Scenario based |
-|  L_1061    |Calculate compound interest | principal amount=30000, Time period=4, rate of interest=9 | result=12942 | result=14000 | Scenario based |
-|  L_1071    |Calculate EMI amount | principal amount=25000, Time period=2, rate of interest=8 | result=1131 | result=1500 | Scenario based |
-|  L_1081    |Calculate Loan amount | principal amount=100000, Time period=4, rate of interest=7 | result=2395 | result=2000 | Scenario based |
-|  L_1111    |Calculate exponent | value=3 | result=20.08 | result=20.08 | Requirement based |
-|  L_1121    |Calculate logarithm | value=10 | result=1 | result=1 | Requirement based |
-|  L_1131    |Calculate squareroot | value=144 | result=12 | result=12 | Requirement based |
-|  L_1211    |Calculate exponent | value=5 | result=148.41 | result=100 |Scenario based |
-|  L_1221    |Calculate logarithm | value=-10 | result=Error | result=1 |Scenario based |
-|  L_1231    |Calculate squareroot | value=7878 | result=88.75 | result=70.3 |Scenario based |
