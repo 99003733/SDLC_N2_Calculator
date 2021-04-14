@@ -29,7 +29,8 @@
 | HLRPK008 - LR1 | Mean | Initiating the required input | Implementing |
 
 ##  Low level Requirements:
-
+| ID | Requirements | Description | Status |
+| --- | --- | --- | --- |
 | HLRSA001 - LR1 | logarithm | Taking one number as input with base as 10 | Implemented |
 | HLRSA001 - LR2 | exponential | Taking one number as input | Implemented |
 | HLRSA001 - LR3 | Squareroot | Taking one number as input | Implemented |
