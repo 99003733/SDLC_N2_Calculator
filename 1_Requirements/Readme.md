@@ -1,4 +1,12 @@
 # Requirements
+
+## Folder Structure
+
+Folder             | Description
+-------------------| -----------------------------------------
+`HLR`   | High level Requirements
+`LLR`         | Low level Requirements
+
 ## Introduction
 This is a multi-purpose low cost scientific calculator which has near about 4-5 new modes compare to the scientific calculator which already in the market.
 
